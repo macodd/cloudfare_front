@@ -21,7 +21,7 @@ const Posts = () => {
   return (
     <div className="container py-4">
       <header className="pb-3 mb-4 border-bottom">
-        <span className="fs-4">Cloudfare exercise</span>
+        <span className="fs-4">Cloudflare exercise</span>
       </header>
       <div className="row justify-content-center">
         <div className="col-lg-8 py-3 px-4 bg-light rounded-3">
