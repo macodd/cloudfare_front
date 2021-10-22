@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react";
 const Posts = () => {
   const [posts, setPosts] = useState([]);
   
-  const base_url = "http://127.0.0.1:8787/api/posts"
-  const create_post_url = "http://127.0.0.1:8787/api/create"
+  const base_url = "https://my-worker.codd82.workers.dev/api/posts"
+  const create_post_url = "https://my-worker.codd82.workers.dev/api/create"
 
   useEffect(() => {
     const getPosts = async () => {
