@@ -29,15 +29,15 @@ const Posts = () => {
           <form action={create_post_url} method="POST">
             <div className="form-group mb-3">
               <label className="form-label" htmlFor="username">Username</label>
-              <input className="form-control" id="username" name="username" type="text" placeholder="your username" />
+              <input className="form-control" id="username" name="username" type="text" placeholder="your username" required />
             </div>
             <div className="form-group mb-3">
               <label className="form-label" htmlFor="title">Title</label>
-              <input className="form-control" id="title" name="title" type="text" placeholder="title of post" />
+              <input className="form-control" id="title" name="title" type="text" placeholder="title of post" required />
             </div>
             <div className="form-group mb-3">
               <label className="form-label" htmlFor="content">Content</label>
-              <textarea className="form-control" id="content" name="content" rows={3} />
+              <textarea className="form-control" id="content" name="content" rows={3} required/>
             </div>
             <div className="col-auto text-center">
               <button type="submit" className="btn btn-primary mb-3">Create post</button>
